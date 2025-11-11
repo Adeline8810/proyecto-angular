@@ -7,8 +7,8 @@ import { Usuario } from '../models/usuario';
   providedIn: 'root'
 })
 export class UsuarioService {
-  private apiUrl = 'http://localhost:8082/api/usuarios'; // 👈 ajusta según tu backend
-
+  //private apiUrl = 'http://localhost:8082/api/usuarios'; // 👈 ajusta según tu backend
+  private apiUrl ='https://app-f2360acc-0222-4cf5-bedd-24f04930dcd6.cleverapps.io/api/usuarios';
   constructor(private http: HttpClient) {}
 
   // ✅ Obtener todos los usuarios
